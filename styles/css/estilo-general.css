@@ -4,7 +4,8 @@
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -13,6 +14,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #007bff;
+  letter-spacing: 1px;
 }
 
 header {
@@ -23,7 +25,8 @@ header {
 header button {
   width: 10%;
   margin: 50px;
-  box-shadow: 10px 10px 100px orange;
+  -webkit-box-shadow: 10px 10px 100px orange;
+          box-shadow: 10px 10px 100px orange;
 }
 
 video {
@@ -32,7 +35,8 @@ video {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   z-index: -1;
 }
 
@@ -49,13 +53,9 @@ main .card {
   margin: auto;
   width: 50%;
   border-radius: 20px;
-  box-shadow: 10px 10px 100px orange;
+  -webkit-box-shadow: 10px 10px 100px orange;
+          box-shadow: 10px 10px 100px orange;
   background-color: rgba(12, 12, 12, 0.5);
   text-align: center;
-}
-
-main .button {
-  width: 10%;
-  font-size: 40px;
 }
 /*# sourceMappingURL=estilo-general.css.map */
