@@ -14,7 +14,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #007bff;
-  letter-spacing: 1px;
 }
 
 header {
@@ -57,5 +56,9 @@ main .card {
           box-shadow: 10px 10px 100px orange;
   background-color: rgba(12, 12, 12, 0.5);
   text-align: center;
+}
+
+main .button {
+  font-size: 10px;
 }
 /*# sourceMappingURL=estilo-general.css.map */
